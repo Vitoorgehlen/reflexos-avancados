@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100svh;
+
+  background-color: #1b1a1f;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+
+  width: 65%;
+  margin-top: 2rem;
+  background-color: #3e4651;
+  border-radius: 0.2rem;
+}
+
+.timer {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 99;
+}
+
+.time-zero button {
+  background-color: #25aef3;
+}
+
+.timer button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #203d51;
+  color: #ffffff;
+}
+
+.timer button.ativado {
+  background-color: #25aef3;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+.targets-up {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: -4rem;
+  margin-top: 2rem;
+}
+
+.targets-up button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 8rem;
+  width: 8rem;
+  border-radius: 2rem;
+  background-color: #656565;
+  box-shadow: 0 0 15px #000000;
+}
+
+.targets-up button.ativo {
+  background-color: #25aef3;
+}
+
+.targets-center {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: -4rem;
+  margin-top: 2rem;
+}
+
+.targets-center button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 8rem;
+  width: 8rem;
+  border-radius: 2rem;
+  background-color: #656565;
+  box-shadow: 0 0 15px #000000;
+}
+
+.targets-center button.ativo {
+  background-color: #25aef3;
+}
+
+#go {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 8rem;
+  width: 8rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 15px #000000;
+  background-color: #30e2b6;
+  color: #ffffff;
+  font-size: 1.7rem;
+}
+#go.ativo {
+  background-color: #656565;
+}
+
+.targets-down {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: -4rem;
+  margin-top: 2rem;
+}
+
+.targets-down button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 8rem;
+  width: 8rem;
+  border-radius: 2rem;
+  background-color: #656565;
+  box-shadow: 0 0 15px #000000;
+}
+
+.targets-down button.ativo {
+  background-color: #25aef3;
+}
+
+footer {
+  margin-bottom: 1rem;
+}

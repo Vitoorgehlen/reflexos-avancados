@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Reflexos Avançados</title>
+  </head>
+  <body>
+    <header>
+      <div class="timer">
+        <button id="time-one" class="ativado">10s</button>
+        <button id="time-two">20s</button>
+        <button id="time-three">30s</button>
+      </div>
+
+      <div class="texto">
+        <h1>Reflexos Avançados</h1>
+        <p>Acerte o maior número de</p>
+        <p>Alvos no menor tempo possível</p>
+      </div>
+      <div class="pontos">
+        <h3>Pontuação: <span id="score">0</span></h3>
+        <h3>Melhor Pontuação: <span id="score-salvo">0</span></h3>
+      </div>
+    </header>
+    <main>
+      <div class="targets-up">
+        <button id="left-more-up"></button>
+        <button id="left-up"></button>
+        <button id="center-up"></button>
+        <button id="right-up"></button>
+        <button id="right-more-up"></button>
+      </div>
+      <div class="targets-center">
+        <button id="left-center"></button>
+        <button id="go">Go!</button>
+        <button id="right-center"></button>
+      </div>
+
+      <div class="targets-down">
+        <button id="left-more-down"></button>
+        <button id="left-down"></button>
+        <button id="center-down"></button>
+        <button id="right-down"></button>
+        <button id="right-more-down"></button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Feito por Vitor Gehlen 🥰</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
