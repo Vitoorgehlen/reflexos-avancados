@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Raleway", sans-serif;
+  font-family: "Signika Negative", sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 
   height: 100svh;
 
@@ -24,9 +25,8 @@ header {
   justify-content: space-evenly;
   padding: 0.5rem;
 
-  width: 65%;
-  margin-top: 2rem;
-  background-color: #3e4651;
+  width: 100%;
+  background-color: #000000;
   border-radius: 0.2rem;
 }
 
@@ -40,7 +40,7 @@ header {
 }
 
 .time-zero button {
-  background-color: #25aef3;
+  background-color: #ff2895;
 }
 
 .timer button {
@@ -53,20 +53,24 @@ header {
   width: 2rem;
   border-radius: 0.2rem;
   border: none;
-  background-color: #203d51;
+  background-color: #f8b2ff;
   color: #ffffff;
 }
 
 .timer button.ativado {
-  background-color: #25aef3;
+  background-color: #ff2895;
 }
 
 .texto {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 12px;
 }
 
+.pontos {
+  font-size: 12px;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -91,15 +95,14 @@ main {
   align-items: center;
   justify-content: space-between;
 
-  height: 8rem;
-  width: 8rem;
-  border-radius: 2rem;
-  background-color: #656565;
-  box-shadow: 0 0 15px #000000;
+  height: 6rem;
+  width: 6rem;
+  box-shadow: 0 0 15px #00000055;
+  background-color: #3e4651;
 }
 
 .targets-up button.ativo {
-  background-color: #25aef3;
+  background-color: #ff2895;
 }
 
 .targets-center {
@@ -118,15 +121,14 @@ main {
   align-items: center;
   justify-content: space-between;
 
-  height: 8rem;
-  width: 8rem;
-  border-radius: 2rem;
-  background-color: #656565;
-  box-shadow: 0 0 15px #000000;
+  height: 6rem;
+  width: 6rem;
+  box-shadow: 0 0 15px #00000055;
+  background-color: #3e4651;
 }
 
 .targets-center button.ativo {
-  background-color: #25aef3;
+  background-color: #ff2895;
 }
 
 #go {
@@ -135,16 +137,14 @@ main {
   align-items: center;
   justify-content: center;
 
-  height: 8rem;
-  width: 8rem;
-  border-radius: 2rem;
-  box-shadow: 0 0 15px #000000;
-  background-color: #30e2b6;
+  height: 6rem;
+  width: 6rem;
+  background-color: #7b0097;
   color: #ffffff;
   font-size: 1.7rem;
 }
 #go.ativo {
-  background-color: #656565;
+  background-color: #3e4651;
 }
 
 .targets-down {
@@ -163,17 +163,17 @@ main {
   align-items: center;
   justify-content: space-between;
 
-  height: 8rem;
-  width: 8rem;
-  border-radius: 2rem;
-  background-color: #656565;
-  box-shadow: 0 0 15px #000000;
+  height: 6rem;
+  width: 6rem;
+  box-shadow: 0 0 15px #00000055;
+  background-color: #3e4651;
 }
 
 .targets-down button.ativo {
-  background-color: #25aef3;
+  background-color: #ff2895;
 }
 
 footer {
-  margin-bottom: 1rem;
+  padding-top: 6rem;
+  margin-bottom: 5rem;
 }

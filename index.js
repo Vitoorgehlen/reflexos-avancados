@@ -8,9 +8,11 @@ const buttonCenterUp = document.getElementById("center-up");
 const buttonRightUp = document.getElementById("right-up");
 const buttonMoreRightUp = document.getElementById("right-more-up");
 
+const buttonMoreLeftCenter = document.getElementById("left-more-center");
 const buttonLeftCenter = document.getElementById("left-center");
 const buttonGo = document.getElementById("go");
 const buttonRightCenter = document.getElementById("right-center");
+const buttonMoreRightCenter = document.getElementById("right-more-center");
 
 const buttonMoreLeftDown = document.getElementById("left-more-down");
 const buttonLeftDown = document.getElementById("left-down");
@@ -101,8 +103,10 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -117,8 +121,10 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -133,8 +139,10 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -149,8 +157,10 @@ function mudaCor() {
     buttonRightUp.classList.add("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -165,8 +175,10 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.add("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -181,8 +193,10 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
-    buttonLeftCenter.classList.add("ativo");
+    buttonMoreLeftCenter.classList.add("ativo");
+    buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -197,8 +211,10 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
-    buttonLeftCenter.classList.remove("ativo");
-    buttonRightCenter.classList.add("ativo");
+    buttonMoreLeftCenter.classList.remove("ativo");
+    buttonLeftCenter.classList.add("ativo");
+    buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -213,10 +229,12 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
-    buttonRightCenter.classList.remove("ativo");
+    buttonRightCenter.classList.add("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
-    buttonMoreLeftDown.classList.add("ativo");
+    buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
     buttonCenterDown.classList.remove("ativo");
     buttonRightDown.classList.remove("ativo");
@@ -229,11 +247,13 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.add("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
-    buttonLeftDown.classList.add("ativo");
+    buttonLeftDown.classList.remove("ativo");
     buttonCenterDown.classList.remove("ativo");
     buttonRightDown.classList.remove("ativo");
     buttonMoreRightDown.classList.remove("ativo");
@@ -245,12 +265,14 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
-    buttonMoreLeftDown.classList.remove("ativo");
+    buttonMoreLeftDown.classList.add("ativo");
     buttonLeftDown.classList.remove("ativo");
-    buttonCenterDown.classList.add("ativo");
+    buttonCenterDown.classList.remove("ativo");
     buttonRightDown.classList.remove("ativo");
     buttonMoreRightDown.classList.remove("ativo");
   }
@@ -261,13 +283,15 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
-    buttonLeftDown.classList.remove("ativo");
+    buttonLeftDown.classList.add("ativo");
     buttonCenterDown.classList.remove("ativo");
-    buttonRightDown.classList.add("ativo");
+    buttonRightDown.classList.remove("ativo");
     buttonMoreRightDown.classList.remove("ativo");
   }
   if (botaoLigado === 12) {
@@ -277,8 +301,46 @@ function mudaCor() {
     buttonRightUp.classList.remove("ativo");
     buttonMoreRightUp.classList.remove("ativo");
 
+    buttonMoreLeftCenter.classList.remove("ativo");
     buttonLeftCenter.classList.remove("ativo");
     buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
+
+    buttonMoreLeftDown.classList.remove("ativo");
+    buttonLeftDown.classList.remove("ativo");
+    buttonCenterDown.classList.add("ativo");
+    buttonRightDown.classList.remove("ativo");
+    buttonMoreRightDown.classList.remove("ativo");
+  }
+  if (botaoLigado === 13) {
+    buttonMoreLeftUp.classList.remove("ativo");
+    buttonLeftUp.classList.remove("ativo");
+    buttonCenterUp.classList.remove("ativo");
+    buttonRightUp.classList.remove("ativo");
+    buttonMoreRightUp.classList.remove("ativo");
+
+    buttonMoreLeftCenter.classList.remove("ativo");
+    buttonLeftCenter.classList.remove("ativo");
+    buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
+
+    buttonMoreLeftDown.classList.remove("ativo");
+    buttonLeftDown.classList.remove("ativo");
+    buttonCenterDown.classList.remove("ativo");
+    buttonRightDown.classList.add("ativo");
+    buttonMoreRightDown.classList.remove("ativo");
+  }
+  if (botaoLigado === 14) {
+    buttonMoreLeftUp.classList.remove("ativo");
+    buttonLeftUp.classList.remove("ativo");
+    buttonCenterUp.classList.remove("ativo");
+    buttonRightUp.classList.remove("ativo");
+    buttonMoreRightUp.classList.remove("ativo");
+
+    buttonMoreLeftCenter.classList.remove("ativo");
+    buttonLeftCenter.classList.remove("ativo");
+    buttonRightCenter.classList.remove("ativo");
+    buttonMoreRightCenter.classList.remove("ativo");
 
     buttonMoreLeftDown.classList.remove("ativo");
     buttonLeftDown.classList.remove("ativo");
@@ -298,8 +360,10 @@ function encerrarJogo() {
   buttonRightUp.removeAttribute("class");
   buttonMoreRightUp.removeAttribute("class");
 
+  buttonMoreLeftCenter.removeAttribute("class");
   buttonLeftCenter.removeAttribute("class");
   buttonRightCenter.removeAttribute("class");
+  buttonMoreRightCenter.removeAttribute("class");
 
   buttonMoreLeftDown.removeAttribute("class");
   buttonLeftDown.removeAttribute("class");
@@ -307,7 +371,7 @@ function encerrarJogo() {
   buttonRightDown.removeAttribute("class");
   buttonMoreRightDown.removeAttribute("class");
 
-  buttonGo.innerText = "Restart!";
+  buttonGo.innerText = "Reset!";
   buttonGo.removeAttribute("class");
 }
 
@@ -331,26 +395,32 @@ buttonRightUp.addEventListener("click", () => {
 buttonMoreRightUp.addEventListener("click", () => {
   tentativaDoClick(5);
 });
-buttonLeftCenter.addEventListener("click", () => {
+buttonMoreLeftCenter.addEventListener("click", () => {
   tentativaDoClick(6);
 });
-buttonRightCenter.addEventListener("click", () => {
+buttonLeftCenter.addEventListener("click", () => {
   tentativaDoClick(7);
 });
-buttonMoreLeftDown.addEventListener("click", () => {
+buttonRightCenter.addEventListener("click", () => {
   tentativaDoClick(8);
 });
-buttonLeftDown.addEventListener("click", () => {
+buttonMoreRightCenter.addEventListener("click", () => {
   tentativaDoClick(9);
 });
-buttonCenterDown.addEventListener("click", () => {
+buttonMoreLeftDown.addEventListener("click", () => {
   tentativaDoClick(10);
 });
-buttonRightDown.addEventListener("click", () => {
+buttonLeftDown.addEventListener("click", () => {
   tentativaDoClick(11);
 });
-buttonMoreRightDown.addEventListener("click", () => {
+buttonCenterDown.addEventListener("click", () => {
   tentativaDoClick(12);
+});
+buttonRightDown.addEventListener("click", () => {
+  tentativaDoClick(13);
+});
+buttonMoreRightDown.addEventListener("click", () => {
+  tentativaDoClick(14);
 });
 
 timerOne.addEventListener("click", () => {
